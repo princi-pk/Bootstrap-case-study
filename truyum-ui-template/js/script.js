@@ -2,7 +2,6 @@ function validate(){
 		var jname=document.getElementById("title").value;
 		var jprice=document.getElementById("price").value;
 		var jdateoflaunch=document.getElementById("datepicker").value;
-		var jcategory=document.getElementById("category");
 		if(jname==="" || jname.length==0){
 			alert("Item Name is required");
 			return false;
@@ -23,8 +22,9 @@ function validate(){
 			alert("Date of launch is required");
 			return false;
 		}
-		if(jcategory.value==""|| jcategory==null){
+		if(document.form.category.selectedIndex==""){
 			alert("Select one category");
 			return false;
 		}
+
 }
