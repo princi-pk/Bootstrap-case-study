@@ -1,0 +1,278 @@
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="./style/style.css">
+
+    <title>Movie List Admin</title>
+  </head>
+  <body>
+  		<div class="container-fluid">
+		  <div class="row">
+		  
+				<div class="col-md-12" id="navHeader">			
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<a class="navbar-brand" id="brand" href="menu-item-list-customer.html"><i class="material-icons">movie</i>  Movie Cruiser</a>
+						<button class="navbar-toggler" type="button" data-target=".navbar-collapse" data-toggle="collapse">
+							<span class="navbar-toggler-icon" ></span>
+						</button>
+
+						<div class="navbar-collapse collapse ">
+							<ul class="navbar-nav ml-auto">
+							  <li class="nav-item">
+								<a class="nav-link" id="navItems" href="#">Movies</a>
+							  </li>
+							  <li class="nav-item">
+								<a class="nav-link" id="navItems" href="#">Watchlist</a>
+							  </li>
+							</ul>
+						</div>
+					</nav>
+				</div>				
+			
+		  </div>
+		</div>
+
+			<div class="p-5 bg-image" id="bgImage">
+				<div class="form-group">
+					<h2 id="findmovie">Search Movie</h2>  
+				 <div class="input-container">
+					<i class="material-icons" id="theater">theaters</i>
+					<input type="text" class="form-control"  placeholder="Search movie" >
+				  </div>
+
+				</div>	
+			</div>	
+
+
+  	<div class="container-fluid mt-3">
+		<div class="row">
+		
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3-D46VUW6eLOb1InL5yla7Vl4SKlHl1potA&usqp=CAU" class="card-img-top" alt="Fantastic Beasts">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left" >Fantastic Beasts <span id="genre">(Adventure)</span> </h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-subtitle text-left" id="imdb">IMDb 8.4</p>
+									</div>	
+									<div class="col">
+										<p class="card-subtitle text-right"><span class="badge badge-success">Active</span></p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-text text-muted text-left">2009  164 min<span class="badge badge-primary">13+</span></p>							
+									</div>	
+									<div class="col">
+										<a href="edit-movie-admin.html"><button class="btn btn-danger mt-2" id="edit"><i class="material-icons">create</i>Edit</button></a>
+									</div>
+								</div>											
+							</div>	
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+							<img src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/k07zb-E40VARN82K9-Full-Image_GalleryBackground-en-US-1593589823719._SX1080_.jpg" class="card-img-top" alt="Welcome">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left" >Welcome<span id="genre">(Comedy)</span> </h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-subtitle text-muted text-left" id="imdb">IMDb 9</p>
+									</div>	
+									<div class="col">
+										<p class="card-subtitle text-right"><span class="badge badge-success">Active</span></p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-text text-muted text-left">2006  150 min<span class="badge badge-primary">13+</span></p>									
+									</div>	
+									<div class="col">
+										<a href="edit-movie-admin.html"><button class="btn btn-danger mt-2" id="edit"><i class="material-icons">create</i>Edit</button></a>
+									</div>
+								</div>											
+							</div>	
+					</div>
+				</div>	
+
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+							<img src="https://i.tribune.com.pk/media/images/2114340-wonderwoman-1575889757/2114340-wonderwoman-1575889757.jpg" class="card-img-top" alt="Wonder Woman">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left" >Wonder Woman <span id="genre">(Superhero)</span> </h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-subtitle text-left" id="imdb">IMDb 7</p>
+									</div>	
+									<div class="col">
+										<p class="card-subtitle text-right"><span class="badge badge-success">Active</span></p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-text text-muted text-left">2012  144 min<span class="badge badge-primary">13+</span></p>									
+									</div>	
+									<div class="col">
+										<a href="edit-movie-admin.html"><button class="btn btn-danger mt-2" id="edit"><i class="material-icons">create</i>Edit</button></a>
+									</div>
+								</div>											
+							</div>	
+					</div>	
+				</div>
+
+				<div class="col-md-3 col-sm-6">
+					<div class="card">
+							<img src="https://spectrumculture.com/wp-content/uploads/2018/05/avtar.jpg" class="card-img-top" alt="Avtar">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left" >Avtar <span id="genre">(Science Fiction)</span> </h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-subtitle text-left" id="imdb">IMDb 9.2</p>
+									</div>	
+									<div class="col">
+										<p class="card-subtitle text-right"><span class="badge badge-success">Active</span></p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-text text-muted text-left">2010  201 min<span class="badge badge-primary">18+</span></p>									
+									</div>	
+									<div class="col">
+										<a href="edit-movie-admin.html"><button class="btn btn-danger mt-2" id="edit"><i class="material-icons">create</i>Edit</button></a>
+									</div>
+								</div>											
+							</div>	
+					</div>	
+				</div>	
+		</div>		
+
+		<div class="row">
+		
+			<div class="col-md-3 col-sm-6">
+				<div class="card">
+					<img src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/old_images/MOVIE/4189/1000074189/1000074189-h" height="220" class="card-img-top" alt="Drishyam">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left" >Drishyam <span id="genre">(Thriller)</span> </h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-subtitle text-left" id="imdb">IMDb 7.5</p>
+									</div>	
+									<div class="col">
+										<p class="card-subtitle text-right"><span class="badge badge-success">Active</span></p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-text text-muted text-left">2015  135 min<span class="badge badge-primary">13+</span></p>									
+									</div>	
+									<div class="col">
+										<a href="edit-movie-admin.html"><button class="btn btn-danger mt-2" id="edit"><i class="material-icons">create</i>Edit</button></a>
+									</div>
+								</div>											
+							</div>	
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="card">
+					<img src="https://img.cinemablend.com/filter:scale/quill/7/f/f/2/d/c/7ff2dca8b628deb838445a3dc2561d9889047620.jpg?mw=600" height="220" class="card-img-top" alt="Titanic">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left" >Titanic <span id="genre">(Love Story)</span> </h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+									</div>	
+									<div class="col">
+										<p class="card-subtitle text-right"><span class="badge badge-danger">Inactive</span></p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-text text-left">2025  198 min<span class="badge badge-primary">18+</span></p>									
+									</div>	
+									<div class="col">
+										<a href="edit-movie-admin.html"><button class="btn btn-danger mt-2" id="edit"><i class="material-icons">create</i>Edit</button></a>
+									</div>
+								</div>											
+							</div>	
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+				<div class="card">
+					<img src="https://c.ndtvimg.com/2019-10/2uuqsfpg_war-movie-review_625x300_02_October_19.jpg" height="220" class="card-img-top" alt="War">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+											<h5 class="card-title text-left" >War <span id="genre">(Action)</span> </h5>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+									</div>	
+									<div class="col">
+										<p class="card-subtitle text-right"><span class="badge badge-danger">Inactive</span></p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col">
+										<p class="card-text text-left">2023  162 min<span class="badge badge-primary">13+</span></p>									
+									</div>	
+									<div class="col">
+										<a href="edit-movie-admin.html"><button class="btn btn-danger mt-2" id="edit"><i class="material-icons">create</i>Edit</button></a>
+									</div>
+								</div>											
+							</div>	
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+			</div>
+			
+		</div>
+		
+	</div>
+
+			<footer class="mt-5 pt-3 pb-3" id="footerscroll"> Copyright 2019</footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
